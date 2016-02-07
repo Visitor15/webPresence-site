@@ -1,3 +1,13 @@
 body {
-    background-color: #EEEEEE
+    background-color: #1F1F1F;
+}
+
+a:link, a:visited {
+    color: #1F1F1F;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+    text-decoration: underline;
+    color: #1F1F1F;
 }
