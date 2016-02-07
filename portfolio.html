@@ -9,8 +9,16 @@
         <link rel="stylesheet" type="text/css" href="resources/css/card-style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/portfolio-style.css">
 
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="vendors/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
     </head>
     <body>
+    	<!-- Add jQuery library -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!-- Add fancybox library -->
+		<script type="text/javascript" src="vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+		<!-- My script -->
+		<script type="text/javascript" src="resources/js/my-fancygallery.js"></script>
         <header class="header">
         	<div class="col-12 header-container-image">
 
@@ -71,8 +79,8 @@
 					<div class="col-12 portfolio-row">
 					    <CENTER>
 					    	<div class="portfolio-item">
-						    	<div class="card-container">
-						    		<a href="resources/images/android-curious-khanacademy-green.png">
+					    		<div class="card-container">
+						    		<a class="card-container" rel="group1" href="resources/images/android-curious-khanacademy-green.png">
 									    <div class="image-container" style="background-image: url(resources/images/android-curious-khanacademy-green.png)">
 										</div>
 									</a>
@@ -80,7 +88,7 @@
 							</div>
 					    	<div class="portfolio-item">
 								<div class="card-container">
-									<a href="resources/images/android-curious-khanacademy-blue.png">
+									<a class="card-container" rel="group1" href="resources/images/android-curious-khanacademy-blue.png">
 									    <div class="image-container" style="background-image: url(resources/images/android-curious-khanacademy-blue.png)">
 										</div>
 									</a>
@@ -88,7 +96,7 @@
 							</div>
 					    	<div class="portfolio-item">
 								<div class="card-container">
-									<a href="resources/images/android-curious-topics-menu.png">
+									<a class="card-container" rel="group1" href="resources/images/android-curious-topics-menu.png">
 									    <div class="image-container" style="background-image: url(resources/images/android-curious-topics-menu.png)">
 										</div>
 									</a>
@@ -118,7 +126,7 @@
 					    <CENTER>
 					    	<div class="portfolio-item">
 						    	<div class="card-container">
-							    	<a href="resources/images/nuesoft-medical-login.png">
+							    	<a class="card-container" rel="group2" href="resources/images/nuesoft-medical-login.png">
 									    <div class="image-container" style="background-image: url(resources/images/nuesoft-medical-login.png)">
 										</div>
 									</a>
@@ -126,7 +134,7 @@
 							</div>
 					    	<div class="portfolio-item">
 								<div class="card-container">
-									<a href="resources/images/nuesoft-medical-profile-overview.png">
+									<a class="card-container" rel="group2" href="resources/images/nuesoft-medical-profile-overview.png">
 									    <div class="image-container" style="background-image: url(resources/images/nuesoft-medical-profile-overview.png)">
 										</div>
 									</a>
@@ -134,7 +142,7 @@
 							</div>
 					    	<div class="portfolio-item">
 								<div class="card-container">
-									<a href="resources/images/nuesoft-medical-profile-encryption.png">
+									<a class="card-container" rel="group2" href="resources/images/nuesoft-medical-profile-encryption.png">
 									    <div class="image-container" style="background-image: url(resources/images/nuesoft-medical-profile-encryption.png)">
 										</div>
 									</a>
@@ -164,7 +172,7 @@
 					    <CENTER>
 					    	<div class="portfolio-item">
 						    	<div class="card-container">
-							    	<a href="resources/images/money-informer-phone-port-main.png">
+							    	<a class="card-container" rel="group3" href="resources/images/money-informer-phone-port-main.png">
 									    <div class="image-container" style="background-image: url(resources/images/money-informer-phone-port-main.png)">
 										</div>
 									</a>
@@ -172,7 +180,7 @@
 							</div>
 					    	<div class="portfolio-item">
 								<div class="card-container">
-									<a href="resources/images/money-informer-phone-port-history.png">
+									<a class="card-container" rel="group3" href="resources/images/money-informer-phone-port-history.png">
 									    <div class="image-container" style="background-image: url(resources/images/money-informer-phone-port-history.png)">
 										</div>
 									</a>
@@ -180,7 +188,7 @@
 							</div>
 					    	<div class="portfolio-item">
 								<div class="card-container">
-									<a href="resources/images/money-informer-tablet-links.png">
+									<a class="card-container" rel="group3" href="resources/images/money-informer-tablet-links.png">
 									    <div class="image-container" style="background-image: url(resources/images/money-informer-tablet-links.png)">
 										</div>
 									</a>
@@ -209,17 +217,17 @@
 					<div class="col-12 portfolio-row">
 					    <CENTER>
 					    	<div class="portfolio-item">
-						    	<div class="card-container">
-							    	<a href="resources/images/astro-phone-listview.png">
-									    <div class="image-container" style="background-image: url(resources/images/astro-phone-listview.png)">
+								<div class="card-container">
+									<a class="card-container" rel="group4" href="resources/images/astro-phone-nav-drawer.png">
+									    <div class="image-container" style="background-image: url(resources/images/astro-phone-nav-drawer.png)">
 										</div>
 									</a>
 								</div>
 							</div>
 					    	<div class="portfolio-item">
-								<div class="card-container">
-									<a href="resources/images/astro-phone-nav-drawer.png">
-									    <div class="image-container" style="background-image: url(resources/images/astro-phone-nav-drawer.png)">
+						    	<div class="card-container">
+							    	<a class="card-container" rel="group4" href="resources/images/astro-phone-listview.png">
+									    <div class="image-container" style="background-image: url(resources/images/astro-phone-listview.png)">
 										</div>
 									</a>
 								</div>
