@@ -1,0 +1,20 @@
+@import url("../../../components/UI/contact-bar-styling.css");
+
+#contact-container {
+    line-height: 30px;
+}
+
+#contact-name h1 {
+    font-size: 18px			!important;
+    font-style: normal	 	!important;
+}
+
+#contact-name h2 {
+    font-size: 12px			!important;
+    font-style: italic		!important;	
+}
+
+#contact li strong, contact li strong a {
+    text-align: right		!important;
+    font-size: 10px			!important;
+}

@@ -1,0 +1,33 @@
+#contact-info {
+    float: right;
+}
+
+#contact-name {
+    width: 50%;
+}
+
+#contact-name h1 {
+    font-size: 28px;
+    font-style: normal;
+}
+
+#contact-name h2 {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#contact {
+    float: right;
+    list-style-type: none;
+    color: #F3EDE1;
+}
+
+#contact li {
+    overflow: hidden;
+    color: #282828;
+    text-align: right;
+}
+
+#contact span.contact-title {
+    color: #1F1F1F;
+}

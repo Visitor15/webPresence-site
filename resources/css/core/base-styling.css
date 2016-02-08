@@ -1,0 +1,19 @@
+@import url("column-styling.css");
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+a:link, a:visited {
+    color: #1F1F1F;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover {
+    text-decoration: underline;
+    color: #1F1F1F;
+}
