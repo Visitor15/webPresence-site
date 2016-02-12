@@ -1,0 +1,10 @@
+@import url("../../../components/footer/footer-styling.css");
+
+.footer-menu li {
+    width: 80%															!important;
+    padding: 16px														!important;
+    margin: 8px 16px 0px												!important;
+    background-color :#33b5e5											!important;
+    color: #ffffff														!important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)	!important;
+}

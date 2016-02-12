@@ -1,0 +1,28 @@
+@import url("../portfolio/portfolio-styling.css");
+
+.portfolio-item {
+    margin-left: 3%     !important;
+    margin-right: 3%    !important;
+    width: 80%          !important;
+}
+
+.project-heading h1 {
+    margin-bottom: 2%   !important;
+    text-align: center  !important;
+}
+
+#portfolio-summary {
+    margin-top: 4%      !important;
+    font-size: 20px     !important;
+    text-align: center  !important;
+}
+
+#portfolio-summary h1 {
+    font-size: 18px     !important;
+    font-style: normal  !important;
+}
+
+#portfolio-summary h2 {
+    font-size:  12px    !important;
+    font-style: italic  !important;
+}

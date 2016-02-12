@@ -1,0 +1,58 @@
+.portfolio-row {
+    display: inline-block;
+}
+
+.portfolio-row:after {
+    clear: inline-block;
+}
+
+.portfolio-container {
+    margin-top: 25px;
+    margin:bottom: 25px;
+}
+
+.project-heading h1 {
+
+}
+
+#portfolio-summary {
+    margin-top: 4%;
+    font-size: 24px;
+    text-align: center;
+}
+
+#portfolio-summary h2 {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#android-line-break {
+    margin-top: 4px;
+    margin-bottom: 2%;
+}
+
+.portfolio-item {
+    width: 25%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+}
+
+.portfolio-item: after {
+    clear: inline-block;
+}
+
+.android-project-line-break {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.project-summary-container {
+    margin-left: 2%;
+    maring-right: 2%;
+    margin-bottom: 2%;
+}
+
+.project-description p {
+    line-height: normal;
+}
